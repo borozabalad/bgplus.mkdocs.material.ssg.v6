@@ -32,6 +32,7 @@ theme:
       accent: lime
 
 markdown_extensions:
+  - tables
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -51,14 +52,17 @@ markdown_extensions:
 nav:
   - Home: 'index.md'
   - 'Report':
+      - 'CLEAN CLIFcode Image': 'documentation/page5501091875.md'
       - 'bGPlus - Process Description (OXi TEST)':
           - 'bGPlus - Process Description (OXi TEST)': 'documentation/page5950570499.md'
-          - 'bGPlus - Process Description - Conservative Stage': 'documentation/page5950930948.md'
+          - 'bGPlus - Process Description -  ConservativeStage': 'documentation/page5950930948.md'
           - 'bGPlus - Process Description - Revisionary Stage': 'documentation/page5951062017.md'
           - 'bGPlus - Test Picture Storage':
               - 'bGPlus - Test Picture Storage': 'documentation/page5950963721.md'
               - 'Process Diagrams - BG plus (Alternate)': 'documentation/page5950996481.md'
       - 'Search': 'documentation/search.md'
+  - 'Table Formats - WIP':
+      - 'Table format to be review': 'tables_P0/page5796298761.md'
 
 copyright: |
   &copy; 2023 <a href="https://borosolutions.net"  target="_blank" rel="noopener">BORO SOLUTIONS LTDA.</a>
