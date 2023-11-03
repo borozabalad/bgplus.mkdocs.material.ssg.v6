@@ -1,0 +1,64 @@
+site_name: bGPlus - Process Description (OXi TEST)
+theme:
+  logo: ../assets/boro_logo_blue_on_white_40x55.png
+  homepage: http://127.0.0.1:8000/documentation/search/
+  name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - content.tabs.linkç
+    - content.code.annotation
+    - content.code.copy
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: teal
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+nav:
+  - Home: 'index.md'
+  - 'Report':
+      - 'bGPlus - Process Description (OXi TEST)':
+          - 'bGPlus - Process Description (OXi TEST)': 'documentation/page5950570499.md'
+          - 'bGPlus - Process Description - Conservative Stage': 'documentation/page5950930948.md'
+          - 'bGPlus - Process Description - Revisionary Stage': 'documentation/page5951062017.md'
+          - 'bGPlus - Test Picture Storage':
+              - 'bGPlus - Test Picture Storage': 'documentation/page5950963721.md'
+              - 'Process Diagrams - BG plus (Alternate)': 'documentation/page5950996481.md'
+      - 'Search': 'documentation/search.md'
+
+copyright: |
+  &copy; 2023 <a href="https://borosolutions.net"  target="_blank" rel="noopener">BORO SOLUTIONS LTDA.</a>
